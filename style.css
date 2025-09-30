@@ -1,0 +1,102 @@
+*{
+    margin: 0 auto;
+}
+body{
+   /* margin: 0; */
+
+   background: linear-gradient(135deg, #ff9800 30%,#0ec235 40%, #1682a3 100%);
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: aliceblue;
+}
+main{
+   width: 80%;
+   height: 600px;
+   margin-top: 1%;  
+   margin-bottom: 1%;
+}
+#a{
+   width: 27.33%;
+   height: 552px;
+   background-color: rgb(230, 76, 4);
+   float: left;
+   padding: 2%;
+   border-radius: 20px;
+   margin-right: 1%;
+   border: solid rgb(0, 0, 0);
+   box-shadow: 3px 3px 15px rgb(255, 115, 0);
+ }
+ #b{
+    width: 28.33%;
+    height: 552px;
+    background-color: rgb(7, 184, 30);
+    float: left;
+    padding: 2%;
+   border-radius: 20px;
+   margin-right: 1%;
+   border: solid rgb(0, 0, 0);
+   box-shadow: 3px 3px 15px rgb(81, 255, 0);
+ }
+ #c{
+   width: 28.33%;
+   height: 552px;
+   background-color: rgb(43, 189, 226);
+   float: left;
+   padding: 2%;
+   border-radius: 20px;
+   border: solid rgb(0, 0, 0); 
+   box-shadow: 3px 3px 15px rgb(0, 153, 255); 
+ }
+ img{
+    width: 100%;
+    text-align: center;
+    background-image:url(fundo.jpg);
+    border-radius: 2%;
+    margin-top: 1%;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+ }
+
+ h2{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 8%;
+ }
+ h4{
+   margin-top: 5%;
+ }
+ p{
+    font-size: 15px;
+    color: #000000;
+ }
+ .pokebola{
+   padding: 12px;
+   margin-top: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(0, 0, 0);
+   border-radius: 100px;
+   text-align: center;
+   text-decoration: none;
+   width: 40%;
+   color: aliceblue;
+}
+
+
+@media only screen and (max-width:568px)
+{
+    #a, #b, #c {
+      width: 98%;
+      height: 700px;
+      margin-bottom: 2%;
+    }
+}
+ @media only screen and (max-width:333px)
+{
+   #a, #b, #c {
+      width: 98%;
+      height: 500px;
+      margin-bottom: 2%;
+    }
+    #h2{
+      margin-bottom: 9%;
+    }
+}
